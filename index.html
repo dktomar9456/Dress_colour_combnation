@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dress_what_suits_you</title>
+</head>
+
+<body>
+    <h1 id="heading">Dress Colour Combinations</h1>
+    <p>Its a simple frontend website <br>in which you can choose different colour combinations for you clothing <br> and you can Identify the best combination for yourself.</p>
+    <br><br>
+    <div class="content">
+        <div class="child input">
+            <input type="color" id="upper"> <br>
+            <input type="color" id="lower"> <br>
+            <button type="button" onclick="saveIt()">Save Style</button>
+
+        </div>
+        <div class="child stt ">
+            <table id="table">
+                <tr>
+                    <th>S.No. </th>
+                    <th>Upper Clothing</th>
+                    <th>Lower Clothing</th>
+                </tr>
+                <tbody id="list"></tbody>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>

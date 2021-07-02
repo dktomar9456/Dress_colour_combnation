@@ -1,0 +1,91 @@
+/* #img1 {
+    background-color: black;
+    width: 500px;
+    height: 680px;
+    clip-path: polygon(0 11%, 30% 7%, 28% 0, 74% 0, 72% 8%, 99% 11%, 99% 29%, 77% 25%, 84% 100%, 17% 100%, 23% 26%, 0 30%);
+}
+
+#img2 {
+    width: 600px;
+    height: 680px;
+    clip-path: polygon(22% 45%, 28% 13%, 28% 0, 75% 0, 74% 10%, 79% 36%, 84% 56%, 90% 100%, 70% 100%, 53% 43%, 36% 100%, 17% 100%);
+} */
+
+body {
+    background: linear-gradient(to right, rgb(53, 143, 53), rgb(79, 128, 156));
+    background-size: cover;
+}
+
+#heading {
+    width: 100%;
+    text-align: center;
+    color: rgb(255, 20, 157);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    color: white;
+    text-align: center;
+}
+
+.child {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.input input {
+    width: 150px;
+    height: 200px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.input button {
+    display: block;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100px;
+    height: 40px;
+    background: linear-gradient(to right, rgb(78, 255, 78), rgb(76, 204, 255));
+    border: black solid 3px;
+    border-radius: 10px;
+}
+
+button:hover {
+    width: 110px;
+    background: linear-gradient(to right, rgb(76, 204, 255), rgb(78, 255, 108));
+}
+
+#upper {
+    clip-path: polygon(0 11%, 30% 7%, 28% 0, 74% 0, 72% 8%, 99% 11%, 99% 29%, 77% 25%, 84% 100%, 17% 100%, 23% 26%, 0 30%);
+}
+
+#lower {
+    width: 190px;
+    height: 250px;
+    clip-path: polygon(24% 0, 76% 0%, 78% 11%, 79% 26%, 78% 39%, 78% 57%, 77% 86%, 76% 100%, 61% 100%, 51% 28%, 35% 100%, 19% 100%, 19% 80%, 20% 61%, 20% 39%, 20% 23%, 22% 11%);
+}
+
+#table {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+th,
+tr,
+td {
+    color: white;
+    border: solid white 2px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0px;
+}
