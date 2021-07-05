@@ -31,7 +31,6 @@ function saveIt() {
         let nEntry = new entry(upper, lower);
         insertRaw(nEntry);
     }
-
 }
 
 function insertRaw(x) {
