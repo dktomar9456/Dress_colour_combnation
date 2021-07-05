@@ -21,3 +21,7 @@
  #container {
      background-color: rgba(0, 0, 0, 0.4);
  }
+ 
+ #alertdiv {
+     height: 52px;
+ }

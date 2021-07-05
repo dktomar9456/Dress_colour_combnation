@@ -12,14 +12,16 @@
     <title>Dress_what_suits_you</title>
 </head>
 
-<body>
+<body onload="getStyles()">
 
     <h1 id="heading" class="page-header text-center bg-dark text-light">Dress <span class="text-warning">Colour</span> Combinations</h1>
-    <p class="text-center lead my-4 text-light">Its a simple frontend website <br>in which you can choose different colour combinations for you clothing <br> and you can Identify the best combination for yourself.</p>
+
+    <p class="text-center lead mt-4 text-light">Its a simple frontend website <br>in which you can choose different colour combinations for you clothing <br> and you can Identify the best combination for yourself.</p>
+    <div class="" id="alertdiv"></div>
     <div class="container mb-5" id="container">
-        <div class="row">
+        <div class="row py-4" id='mainItem'>
             <div class="col input">
-                <div class="container my-4">
+                <div class="container ">
                     <!-- <img src="img/mypic.png" alt="my picture" id="mypic" class="mx-3"> -->
                     <input type="color" id="upper" class="row mx-2">
                     <input type="color" id="lower" class="row">
@@ -31,9 +33,9 @@
             <div class="col">
                 <table id="table" class="my-3 table text-center table-dark ">
                     <tr>
-                        <th>S.No. </th>
                         <th>Upper Clothing</th>
                         <th>Lower Clothing</th>
+                        <th>Remove </th>
                     </tr>
                     <tbody id="list"></tbody>
                 </table>
