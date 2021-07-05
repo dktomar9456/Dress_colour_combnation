@@ -4,14 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<<<<<<< HEAD
-    <link rel="stylesheet" href="CSS/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-=======
->>>>>>> 5b3f255d03b925e7a7e88d66eb1bfad6b78c6eb1
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <title>Dress_what_suits_you</title>
 </head>
 
@@ -19,20 +16,20 @@
 
     <h1 id="heading" class="page-header text-center bg-dark text-light">Dress <span class="text-warning">Colour</span> Combinations</h1>
     <p class="text-center lead my-4 text-light">Its a simple frontend website <br>in which you can choose different colour combinations for you clothing <br> and you can Identify the best combination for yourself.</p>
-    <div class="container bg-dark">
+    <div class="container" id="container">
         <div class="row">
             <div class="col input">
                 <div class="container my-4">
+                    <!-- <img src="img/mypic.png" alt="my picture" id="mypic" class="mx-3"> -->
                     <input type="color" id="upper" class="row mx-2">
                     <input type="color" id="lower" class="row">
-                    <button type="button" onclick="saveIt()" class="btn btn-primary row m-4">Save Style</button>
-
+                    <button type="button" onclick="saveIt()" class="btn btn-primary row m-4 ">Save Style</button>
                 </div>
 
 
             </div>
             <div class="col">
-                <table id="table" class="my-3 table text-center table-dark">
+                <table id="table" class="my-3 table text-center table-dark ">
                     <tr>
                         <th>S.No. </th>
                         <th>Upper Clothing</th>
@@ -44,13 +41,8 @@
         </div>
 
     </div>
-<<<<<<< HEAD
-    <script src="js/script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-=======
-     <script src="js/script.js"></script>
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
->>>>>>> 5b3f255d03b925e7a7e88d66eb1bfad6b78c6eb1
+
+
 </body>
 
 </html>

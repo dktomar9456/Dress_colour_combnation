@@ -13,6 +13,7 @@ function saveIt() {
     lower = document.getElementById('lower').value;
     let nEntry = new entry(sno, upper, lower);
     insertRaw(nEntry);
+    alert("style Saved Sucessfully");
     sno++;
 }
 
@@ -25,4 +26,5 @@ function insertRaw(x) {
     <td style="background-color:${x.lower};">${x.lower}</td> 
     `
     list.appendChild(row);
+
 }
